@@ -8,7 +8,6 @@ namespace Animales
         {
         
         Perro p = new Perro("Perro", 4);
-        p.SuHabilidadPerro();
         Console.WriteLine("*****Mamiferos*****");   
         Console.WriteLine(p.Nombre);
         Console.WriteLine("Numero de patas:");
@@ -23,7 +22,6 @@ namespace Animales
 
 
         Gato g = new Gato("Gato" , 4);
-        g.SuHabilidadGato();
         Console.WriteLine(g.Nombre);
         Console.WriteLine("Numero de patas:");
         Console.WriteLine(g.NumeroDePatas);
@@ -37,7 +35,6 @@ namespace Animales
 
         
         Mono m = new Mono("Mono", 2);
-        m.SuHabilidadMono();
         Console.WriteLine(m.Nombre);
         Console.WriteLine("Numero de patas:");
         Console.WriteLine(m.NumeroDePatas);
@@ -83,7 +80,6 @@ namespace Animales
 
 
         PezGlobo pg = new PezGlobo("Pez Globo", 4);
-        pg.SuHabilidadPezGlobo();
         Console.WriteLine("*****Peces*****");
         Console.WriteLine(pg.Nombre);
         Console.WriteLine("Numero de aletas:");
