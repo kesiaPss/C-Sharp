@@ -6,6 +6,7 @@ namespace Animales
         {
             Nombre = nombre; 
             ColorDePlumaje = colordeplumaje;
+        
 
         }
         public void SuHabilidadLoro()

@@ -6,9 +6,10 @@ namespace Animales
         {
             Nombre = nombre;
              NumeroDePatas = 4;
+             SuHabilidadMono();
 
         }
-        public void SuHabilidadMono()
+        private void SuHabilidadMono()
         {
             Comer = true;
             Caminar = true;

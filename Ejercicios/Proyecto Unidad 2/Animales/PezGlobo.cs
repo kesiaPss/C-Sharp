@@ -6,8 +6,9 @@ namespace Animales
         {
             Nombre = nombre; 
             NumeroDeAletas = numerodealetas;
+            SuHabilidadPezGlobo();
         }
-        public void SuHabilidadPezGlobo()
+        private void SuHabilidadPezGlobo()
         {
             Inflarse = true;
             Comer = true;
